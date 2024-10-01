@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1c92d2, #f2fcfe);
+  color: #333;
+  line-height: 1.6; /* Improved readability */
+}
+
+header {
+  background-color: #336699;
+  color: white;
+  padding: 15px 30px; /* Increased padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px; /* Increased spacing between items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #0040ff;
+}
+  .msc-btn {
+    background-color:  #336699; /* Make the button background transparent */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Button padding */
+    cursor: pointer; /* Pointer cursor */
+    font-weight: 500;
+  }
+
+.msc-btn :hover{
+  background-color: #0040ff;
+}
+.download-btn {
+  background-color: #FFCC00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px; /* Increased padding for content section */
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card-image {
+  max-width: 350px; /* Slightly increased size */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.text-section {
+  max-width: 500px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #336699;
+  margin-bottom: 20px;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Increased gap for better spacing */
+}
+
+.benefit-item {
+  background-color: #F0F0F0;
+  padding: 20px 25px; /* Increased padding */
+  border-radius: 10px;
+  font-weight: 500;
+  transition: transform 0.2s ease;
+  color: #333;
+}
+
+.benefit-item:hover {
+  transform: scale(1.05);
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #FFCC00;
+  color: black;
+  padding: 15px 35px; /* Increased padding */
+  text-decoration: none;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #336699;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
